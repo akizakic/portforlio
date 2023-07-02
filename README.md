@@ -21,10 +21,13 @@
 -> DNN(Deep Neural Network) : 입력층(input layer)과 출력층(output layer) 사이에 다중의 은닉층(hidden layer)을 포함하는 인경 신경망을 말한다.
 ```
 DNN 을 응용한 알고리즘 CNN(합성곱 신경망) , RNN(순환신경망) + LSTM , GRU 등등...
-최근에는 시퀀스-투-시퀀스(sequence-to-sequence) 방식의 RNN(Recurrent Neural Network) 기반으로 속도와 성능 면에서 좋은 결과를 내기 시작했다. 과거의 출력 데이터를 재귀적으로 참조해 시간의 흐름에 따라 변화하는 데이터를 학습할 수 있다. 음성 인식에서도 번역어(end-to-end) 학습 방식이 발전하면서 일련의 오디오 특징을 입력으로 일련의 글자(character) 또는 단어를 출력하는 단일 함수를 학습할 수 있게 됐다.
+최근에는 시퀀스-투-시퀀스(sequence-to-sequence) 방식의 RNN(Recurrent Neural Network) 기반으로 속도와 성능 면에서 좋은 결과를 내기 시작했다.
+과거의 출력 데이터를 재귀적으로 참조해 시간의 흐름에 따라 변화하는 데이터를 학습할 수 있다.
+음성 인식에서도 번역어(end-to-end) 학습 방식이 발전하면서 일련의 오디오 특징을 입력으로 일련의 글자(character) 또는 단어를 출력하는 단일 함수를 학습할 수 있게 됐다.
 
 CNN -> 정보추출, 문장분류, 얼굴 인식 등등
-RNN -> Sequence-to-Sequence data 학습에 특화된 인공신경망 -> 음성 웨이브폼 파악 or 텍스트의 앞뒤 성분 파악 등 (시간에 종속된다는 특징이 있다.)
+RNN -> Sequence-to-Sequence data 학습에 특화된 인공신경망 -> 음성 웨이브폼 파악 or 텍스트의 앞뒤 성분 파악 등
+    (시간에 종속된다는 특징이 있다.)
 ```
 
 ##  생성모델(Generative-Model)  
