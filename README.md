@@ -1,17 +1,25 @@
 # 📘 포트폴리오
 
-<!-- 여기에 본인 사진을 추가하세요 -->
-<img width="591" height="787" alt="image" src="https://file.notion.so/f/f/b137de05-ef23-4845-b33d-0e244f9ccc63/a13583ef-0d77-4f58-9379-ff872466e1e8/%EC%96%91%EC%B1%84%EC%9D%80_%EB%B0%98%EB%AA%85%ED%95%A8.jpg?table=block&id=2a69b3f3-8968-8147-ab21-e6972a314667&spaceId=b137de05-ef23-4845-b33d-0e244f9ccc63&expirationTimestamp=1762704000000&signature=XB9LEIMOxMy_Adr2r4SLIB4qFS4a-waESEeWdqOYGKo&downloadName=%EC%96%91%EC%B1%84%EC%9D%80_%EB%B0%98%EB%AA%85%ED%95%A8.jpg" />
+<table>
+<tr>
+<td width="220" valign="top">
 
----
+<!-- 👇 여기에 본인 사진 파일명을 넣으세요 -->
+<img src="https://file.notion.so/f/f/b137de05-ef23-4845-b33d-0e244f9ccc63/a13583ef-0d77-4f58-9379-ff872466e1e8/%EC%96%91%EC%B1%84%EC%9D%80_%EB%B0%98%EB%AA%85%ED%95%A8.jpg?table=block&id=2a69b3f3-8968-8147-ab21-e6972a314667&spaceId=b137de05-ef23-4845-b33d-0e244f9ccc63&expirationTimestamp=1762704000000&signature=XB9LEIMOxMy_Adr2r4SLIB4qFS4a-waESEeWdqOYGKo&downloadName=%EC%96%91%EC%B1%84%EC%9D%80_%EB%B0%98%EB%AA%85%ED%95%A8.jpg" width="200" alt="양채은 프로필 사진"/>
 
-## 💡 모두를 연결하는 든든한 다리,  
-### 서버 엔지니어 **양채은**입니다.
+</td>
+<td width="75%" valign="top" style="padding-left:20px;">
+
+## 💡 모두를 연결하는 든든한 다리,  서버 엔지니어 **양채은**입니다.
 
 안녕하세요.  
 양채은입니다.  
 새로운 도전을 즐기며, 밝은 에너지로 팀을 감싸며  
 아름다운 인터페이스를 만드는 것을 좋아합니다.
+
+</td>
+</tr>
+</table>
 
 ---
 
