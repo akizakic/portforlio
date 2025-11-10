@@ -5,7 +5,7 @@
 <td width="220" valign="top">
 
 <!-- 👇 여기에 본인 사진 파일명을 넣으세요 -->
-<img src="https://file.notion.so/f/f/b137de05-ef23-4845-b33d-0e244f9ccc63/a13583ef-0d77-4f58-9379-ff872466e1e8/%EC%96%91%EC%B1%84%EC%9D%80_%EB%B0%98%EB%AA%85%ED%95%A8.jpg?table=block&id=2a69b3f3-8968-8147-ab21-e6972a314667&spaceId=b137de05-ef23-4845-b33d-0e244f9ccc63&expirationTimestamp=1762704000000&signature=XB9LEIMOxMy_Adr2r4SLIB4qFS4a-waESEeWdqOYGKo&downloadName=%EC%96%91%EC%B1%84%EC%9D%80_%EB%B0%98%EB%AA%85%ED%95%A8.jpg" width="200" alt="양채은 프로필 사진"/>
+<img src="https://github.com/user-attachments/assets/0e230d34-406c-4a11-85f5-be59cd35a64f" width="200" alt="양채은 프로필 사진"/>
 
 </td>
 <td width="75%" valign="top" style="padding-left:20px;">
