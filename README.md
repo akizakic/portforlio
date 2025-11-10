@@ -61,24 +61,37 @@
 
 **System / DevOps**
 - Linux (RHEL, Ubuntu)
-- Docker, Nginx, GitHub Actions, ArgoCD
-- Prometheus / CloudWatch 모니터링
+- Docker, Nginx(Proxy), MySQL, Redis
+- Zabbix / Prometheus / CloudWatch 모니터링
 
 ---
 
 ## 💻 Work Experience
 
-### 🏢 더존비즈온 ⎜ TAUnit (인프라운영Cell)
+### 🏢 더존비즈온
 **기간:** 2025.01 ~ 현재  
-**직무:** ERP SaaS 인프라 운영 및 자동화 담당  
+**부서/직급:** TAUnit (인프라운영Cell) / 사원
+#### 주요 업무
+- Amaranth10 서비스 설치 및 인증서 적용 자동화 (Ansible Playbook)
+- OS 및 Kubernetes 업그레이드 등 EOS 대응 작업을 통한 서비스 안정화
+- 네트워크 및 인프라 구조 개선   
+
+#### 프로젝트
 
 - **Amaranth10 인프라 운영 및 자동화 고도화**
+  📅 2025.04 ~ 2025.08
   - Ansible Playbook 기반 설치 스크립트 개선으로 설치 일관성 확보  
   - OS (RHEL 8.10→9.4) 및 Kubernetes(1.28→1.31) 업그레이드 기술 검토 및 안정화  
   - CNI(Calico) 배포 순서 수정, CRI-O 런타임 전환 등으로 배포 오류 해결  
   - JVM cgroup v2 메모리 인식 문제 분석 및 Java8 호환성 개선 방향 도출  
   - SaaS 인증서 자동화 및 네트워크 구조 개선으로 배포 효율성 향상  
   - **성과:** 서비스 안정성 강화 및 매출 약 7% 증가 대응 가능한 인프라 구축  
+
+- **Amaranth10 SaaS 네트워크 아키텍처 개선**
+  📅 2025.03 ~ 2025.04  
+  - 목적: Spine-Leaf 기반 확장형 구조로 네트워크 병목 개선
+  - 담당: 노드 이전, 포트맵 업데이트, Zabbix 모니터링 구성
+  - **성과:** Spine 스위치 54포트 중 38포트 사용 → 향후 확장 대비 여유 확보 
 
 
 ---
@@ -95,6 +108,17 @@
 - Aurora + ElastiCache로 DB/캐시 분리, 트래픽 부하 분산  
 - CloudWatch + Slack 실시간 알림 시스템 구축으로 장애 대응 자동화  
 - **성과:** 분당 20만 건 이상의 요청을 안정적으로 처리  
+
+### 🤖 로봇 경로 예측 모델 설계
+📅 2024.01 ~ 2024.11  
+**역할:** 연구 및 모델 개발  
+**기술:** ROS2, TurtleBot4, Python, TensorFlow, Conv-LSTM, Transformer  
+
+- ROS2 기반 TurtleBot4 실험 환경 구축 및 LiDAR 데이터 수집  
+- Conv-LSTM + Attention, Transformer 모델 비교 실험  
+- 시공간 패턴 학습 기반 로봇 경로 예측 모델 설계  
+
+> **성과:** LiDAR 기반 경로 예측 가능성 입증, Conv-LSTM의 안정적 학습 성능 확인  
 
 ---
 
