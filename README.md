@@ -1,10 +1,6 @@
-# 📘 포트폴리오
+# 📘 Portfolio
+<table> <tr> <td width="220" valign="top">
 
-<table>
-<tr>
-<td width="220" valign="top">
-
-<!-- 👇 여기에 본인 사진 파일명을 넣으세요 -->
 <img src="https://github.com/user-attachments/assets/0e230d34-406c-4a11-85f5-be59cd35a64f" width="200" alt="양채은 프로필 사진"/>
 
 </td>
@@ -13,10 +9,13 @@
 ## 💡 모두를 연결하는 든든한 다리,  서버 엔지니어 **양채은**입니다.
 
 안녕하세요.  
-시스템의 안정성과 효율을 동시에 추구하는 서버 엔지니어 **양채은**입니다.  
-클라우드와 온프레미스 환경 모두에서 **자동화, 확장성, 안정성**을 고려한 인프라 설계와 운영을 경험해왔습니다.  
-사용자는 보지 못하지만, 모든 서비스를 떠받치는 ‘기반’을 만드는 일이 제가 가장 즐거워하는 일입니다.
+서비스의 **안정성과 확장성을 설계하는 인프라 중심 서버 엔지니어**입니다.
 
+온프레미스와 클라우드 환경에서 Kubernetes 기반 인프라 운영과 자동화를 수행하며  
+**업그레이드 안정화, EOS 대응, 네트워크 구조 개선, 설치 자동화 표준화**를 통해  
+운영 리스크를 줄이고 서비스 가용성을 높여왔습니다.
+
+> “장애를 줄이고, 운영을 단순화하고, 확장 가능한 구조를 만드는 것 — 그것이 제 역할입니다.”
 </td>
 </tr>
 </table>
@@ -26,16 +25,15 @@
 
 ## 📞 Contact
 
-- **T** : 010-4927-6206  
-- **A** : 서울특별시 영등포구  
-- **E** : akizakic@naver.com  
+- **Phone** : 010-4927-6206  
+- **Address** : 서울특별시 영등포구  
+- **Email** : akizakic@naver.com  
 
 ---
 
 ## 🏫 Education
 
-**인천대학교 ⎜ 정보통신공학과**  
-*(부전공 : 미래자동차연계전공)*  
+**인천대학교 | 정보통신공학과 (부전공: 미래자동차연계전공)**  
 📅 2021.03 ~ 2025.02 (졸업 예정)  
 📊 GPA : 4.0 / 4.5  
 
@@ -51,54 +49,120 @@
   
 ---
 
-## 🛠️ Stacks
+## 🛠️ Tech Stack
 
-**Infrastructure / Cloud**
-- Kubernetes (EKS, 클러스터 운영 및 자동화)
-- AWS (EC2, S3, CloudFront, Aurora, ElastiCache)
-- Terraform (IaC)
-- Ansible (자동화 스크립트 관리)
+### Infrastructure / Cloud
+<p>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+</p>
 
-**System / DevOps**
-- Linux (RHEL, Ubuntu)
-- Docker, Nginx(Proxy), MySQL, Redis
-- Zabbix / Prometheus / CloudWatch 모니터링
+### System / Tools
+<p>
+  <img src="https://img.shields.io/badge/Zabbix-CC0000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+</p>
 
 ---
 
-## 💻 Work Experience
+# 💻 Work Experience
 
-### 🏢 더존비즈온
-**기간:** 2025.01 ~ 현재  
-**부서/직급:** TAUnit (인프라운영Cell) / 사원
+
+---
+
+## 🏢 더존비즈온 | TAUnit (인프라운영Cell)
+📅 2025.01 ~ 현재
+
 #### 주요 업무
-- Amaranth10 서비스 설치 및 인증서 적용 자동화 (Ansible Playbook)
-- OS 및 Kubernetes 업그레이드 등 EOS 대응 작업을 통한 서비스 안정화
-- 네트워크 및 인프라 구조 개선   
+- Kubernetes 기반 솔루션 신규 설치 및 형상 관리
+  - Ansible을 활용한 설치 자동화 시스템 구축
+  - OS / K8s / DB 버전 업그레이드 시 자동화 스크립트 형상 변경 및 관리
+- 고객사 서버 IP 변경시, 솔루션 재/이전 설치 지원
+  - 서비스 장애 또는 고객사 서버 이전 시, K8s 클러스터 재구성 및 데이터 복원 지원
+- 장애 분석 및 구조적 개선
+- SaaS SSL 인증서 적용 및 갱신 (L4 Offload)
+- zabbix 기반 네트워크 모니터링 구축
+- JIRA 프로젝트 및 이슈 관리
 
-#### 프로젝트
+---
 
-- **Amaranth10 인프라 운영 및 자동화 고도화**
-<br/>  📅 2025.04 ~ 2025.08
-  - **목적**: 서비스 모듈 및 OS 버전의 EOS(End of Support) 대응을 통해 서비스 운영 안정성과 확장성 확보
-  - **주요 수행내용**:
-    - Ansible Playbook 기반 설치 스크립트 개선으로 설치 일관성 확보  
-    - OS (RHEL 8.10→9.4) 및 Kubernetes(1.28→1.31) 업그레이드 기술 검토 및 안정화  
-    - CNI(Calico) 배포 순서 수정, CRI-O 런타임 전환 등으로 배포 오류 해결  
-    - JVM cgroup v2 메모리 인식 문제 분석 및 Java8 호환성 개선 방향 도출  
-    -  SaaS 인증서 자동화 및 네트워크 구조 개선으로 배포 효율성 향상  
-  - **성과**: 서비스 안정성 강화 및 매출 약 7% 증가 대응 가능한 인프라 구축  
+# 주요 프로젝트
 
-- **Amaranth10 SaaS 네트워크 아키텍처 개선**
-<br/>  📅 2025.03 ~ 2025.04  
-  - **목적**: Spine-Leaf 기반 확장형 구조로 네트워크 병목 개선
-  - **주요 수행내용**: 노드 이전, 포트맵 업데이트, Zabbix 모니터링 구성
-  - **성과**: Spine 스위치 54포트 중 38포트 사용 → 향후 확장 대비 여유 확보 
+---
+
+### 🔹 A10 클라우드 펌웨어 업데이트
+
+**목적**  
+EOS 대응 및 무중단 업그레이드 체계 확립  
+
+**수행**
+- RHEL 8 → 9
+- Kubernetes 1.30 → 1.31
+- CRI-O 전환
+- Calico 네트워크 이슈 해결
+
+**주요 장애 대응**
+- Manifest 충돌 → 정리 후 정상화
+- etcd CrashLoopBackOff → 이미지 레포 변경
+- kube-proxy API 불일치 → HAProxy 조정
+- Node Taint → GUID 재인식
+
+**성과**
+- 무중단 업그레이드 안정화
+- 업그레이드 표준 프로세스 수립
+
+---
+
+### 🔹 Amaranth10 설치셋 고도화
+
+**목적**  
+계정 보안 강화 및 설치 자동화 표준화  
+
+**수행**
+- install.sh 및 Ansible 구조 개선
+- DB 계정 자동 생성 로직 구현
+- MariaDB 10.4 → 10.11 업그레이드
+- root 기반 백업 → backup 전용 계정 전환
+
+**성과**
+- 계정 자동화로 인적 오류 감소
+- 보안 정책 반영된 표준 설치 체계 구축
+
+---
+
+### 🔹Amaranth10 인프라 신규 업데이트
+**목적**  
+- 서비스 모듈 및 OS 버전의 EOS(End of Support) 대응을 통해 서비스 운영 안정성과 확장성 확보
+
+**수행**
+- OS (RHEL 8.10→9.4) 및 Kubernetes(1.28→1.31) 업그레이드 기술 검토 및 안정화  
+- CNI(Calico) 배포 순서 수정, CRI-O 런타임 전환 등으로 배포 오류 해결  
+- JVM cgroup v2 메모리 인식 문제 분석 및 Java8 호환성 개선 방향 도출  
+- SaaS 인증서 자동화 및 네트워크 구조 개선으로 배포 효율성 향상  
+
+**성과**
+- 서비스 안정성 강화 및 매출 약 7% 증가 대응 가능한 인프라 구축  
+
+---
+
+### 🔹Amaranth10 SaaS 네트워크 아키텍처 개선
+
+**목적**
+Spine-Leaf 기반 확장형 구조로 네트워크 병목 개선  
+
+**주요 수행내용**  
+노드 이전, 포트맵 업데이트, Zabbix 모니터링 구성  
+
+**성과**
+Spine 스위치 54포트 중 38포트 사용 → 향후 확장 대비 여유 확보 
 
 
 ---
 
-## 🚀 Projects
+## 🚀 External Projects
 
 ### ☁️ 클라우드 기반 온라인 쇼핑몰 인프라 구축 프로젝트
 📅  2024.06 ~ 2024.08
