@@ -102,13 +102,6 @@ EOS 대응 및 무중단 업그레이드 체계 확립
 - RHEL 8 → 9
 - Kubernetes 1.30 → 1.31
 - CRI-O 전환
-- Calico 네트워크 이슈 해결
-
-**주요 장애 대응**
-- Manifest 충돌 → 정리 후 정상화
-- etcd CrashLoopBackOff → 이미지 레포 변경
-- kube-proxy API 불일치 → HAProxy 조정
-- Node Taint → GUID 재인식
 
 **성과**
 - 무중단 업그레이드 안정화
